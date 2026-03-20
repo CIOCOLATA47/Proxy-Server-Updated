@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "proxyserverupdated",
+  "version": "${version}",
+
+  "name": "Proxy Server",
+  "description": "Allows you to connect to servers through a proxy",
+  "authors": [
+    "Fiw",
+    "Ciocolata47 - Updating"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/proxyserver/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.fiw.proxyserver.ProxyServer"
+    ]
+  },
+  "mixins": [
+    "proxyserver.mixins.json"
+  ]
+}
