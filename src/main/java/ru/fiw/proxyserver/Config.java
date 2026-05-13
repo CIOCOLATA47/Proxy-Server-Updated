@@ -17,7 +17,6 @@ import java.util.Map;
 
 public class Config {
     private static final String CONFIG_PATH = Minecraft.getInstance().gameDirectory + "/config/ProxyServerConfig.json";
-
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     public static Map<String, Proxy> accounts = new HashMap<>();
     public static String lastPlayerName = "";

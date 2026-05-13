@@ -10,7 +10,6 @@ public class Proxy {
     public String password = "";
 
     public Proxy() {
-
     }
 
     public Proxy(boolean isSocks4, String ipPort, String username, String password) {
