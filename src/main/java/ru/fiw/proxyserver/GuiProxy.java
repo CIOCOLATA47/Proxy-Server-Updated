@@ -80,6 +80,8 @@ public class GuiProxy extends Screen {
                 Component.empty()
         );
 
+        this.ipPort.setMaxLength(256);
+
         this.ipPort.setHint(
                 Component.literal("e.g. 125.1.34.1:2555")
                         .withStyle(ChatFormatting.DARK_GRAY)
@@ -101,6 +103,8 @@ public class GuiProxy extends Screen {
                 20,
                 Component.empty()
         );
+
+        this.username.setMaxLength(256);
 
         this.username.setHint(
                 Component.literal(
@@ -128,6 +132,8 @@ public class GuiProxy extends Screen {
                     20,
                     Component.empty()
             );
+
+            this.password.setMaxLength(256);
 
             this.password.setHint(
                     Component.literal("e.g. myPassword123")
@@ -228,6 +234,8 @@ public class GuiProxy extends Screen {
                 20,
                 Component.empty()
         );
+
+        this.nameInput.setMaxLength(64);
 
         this.nameInput.setHint(
                 Component.literal("Name")
